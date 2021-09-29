@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+
+<StackPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="373.0" prefWidth="617.0" style="-fx-background-image: \@pin_marble_background;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="overlay" prefHeight="200.0" prefWidth="200.0" />
+      <Pane prefHeight="438.0" prefWidth="617.0">
+         <children>
+            <ImageView layoutX="1.0" layoutY="31.0">
+               <image>
+                  <Image url="@iron_rivets_left_edge_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="1.0" layoutY="187.0">
+               <image>
+                  <Image url="@iron_rivets_left_edge_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="611.0" layoutY="31.0">
+               <image>
+                  <Image url="@iron_rivets_right_edge_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="611.0" layoutY="187.0">
+               <image>
+                  <Image url="@iron_rivets_right_edge_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="1.0" layoutY="343.0">
+               <image>
+                  <Image url="@iron_rivets_corner_bottom_left.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="592.0" layoutY="343.0">
+               <image>
+                  <Image url="@iron_rivets_corner_bottom_right.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="1.0" layoutY="1.0">
+               <image>
+                  <Image url="@iron_rivets_corner_top_left.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="592.0" layoutY="1.0">
+               <image>
+                  <Image url="@iron_rivets_corner_top_right.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="26.0" layoutY="367.0">
+               <image>
+                  <Image url="@iron_rivets_bottom_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="170.0" layoutY="367.0">
+               <image>
+                  <Image url="@iron_rivets_bottom_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="314.0" layoutY="367.0">
+               <image>
+                  <Image url="@iron_rivets_bottom_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="448.0" layoutY="367.0">
+               <image>
+                  <Image url="@iron_rivets_bottom_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="26.0" layoutY="1.0">
+               <image>
+                  <Image url="@iron_rivets_top_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="170.0" layoutY="1.0">
+               <image>
+                  <Image url="@iron_rivets_top_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="314.0" layoutY="1.0">
+               <image>
+                  <Image url="@iron_rivets_top_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="448.0" layoutY="1.0">
+               <image>
+                  <Image url="@iron_rivets_top_big.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="6.0" fitWidth="144.0" layoutX="151.0" layoutY="37.0">
+               <image>
+                  <Image url="@iron_rivets_horizontal_big.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="6.0" fitWidth="144.0" layoutX="295.0" layoutY="37.0">
+               <image>
+                  <Image url="@iron_rivets_horizontal_big.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="6.0" fitWidth="144.0" layoutX="7.0" layoutY="37.0">
+               <image>
+                  <Image url="@iron_rivets_horizontal_big.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="6.0" fitWidth="144.0" layoutX="439.0" layoutY="37.0">
+               <image>
+                  <Image url="@iron_rivets_horizontal_big.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="575.0" layoutY="22.0">
+               <image>
+                  <Image url="@iron_rivets_horizontal.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="36.0" prefWidth="617.0">
+         <children>
+            <Group layoutX="266.0" layoutY="9.0">
+               <children>
+                  <Label layoutY="3.0" styleClass="script-title" text="Title" textFill="WHITE" />
+                  <Hyperlink fx:id="scriptOwner" alignment="CENTER" contentDisplay="CENTER" layoutX="56.0" layoutY="2.0" prefHeight="24.0" prefWidth="45.0" text="by Beg" />
+               </children>
+            </Group>
+            <Group layoutX="552.0" layoutY="9.0">
+               <children>
+                  <Button id="close-button" alignment="CENTER" cancelButton="true" depthTest="DISABLE" layoutX="30.0" minHeight="19.0" mnemonicParsing="false" onMouseClicked="#onClose" prefHeight="31.0" prefWidth="21.0">
+                     <styleClass>
+                        <String fx:value="osrs-button" />
+                        <String fx:value="osrs-button-icon" />
+                     </styleClass>
+                  </Button>
+                  <Button id="min-button" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#onMinimize" prefHeight="25.0" prefWidth="34.0">
+                     <styleClass>
+                        <String fx:value="osrs-button" />
+                        <String fx:value="osrs-button-icon" />
+                     </styleClass>
+                  </Button>
+               </children>
+            </Group>
+            <Button id="help-button" alignment="CENTER" layoutX="11.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#onMinimize" prefHeight="25.0" prefWidth="45.0">
+               <styleClass>
+                  <String fx:value="osrs-button" />
+                  <String fx:value="osrs-button-icon" />
+               </styleClass>
+            </Button>
+            <Pane layoutX="6.0" layoutY="43.0" prefHeight="326.0" prefWidth="605.0">
+               <children>
+                  <SplitPane dividerPositions="0.21" layoutY="-1.0" prefHeight="326.0" prefWidth="606.0" styleClass="split-panel">
+                     <items>
+                        <AnchorPane prefHeight="321.0" prefWidth="167.0" styleClass="side-panel" />
+                        <AnchorPane id="start-script-button" prefHeight="322.0" prefWidth="469.0" styleClass="main-panel">
+                           <children>
+                              <Group layoutX="14.0" layoutY="259.0">
+                                 <children>
+                                    <Button layoutX="318.0" layoutY="13.0" maxWidth="137.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="137.0" styleClass="decorated-button" text="Start script" />
+                                    <Hyperlink fx:id="discordLink" alignment="CENTER" contentDisplay="CENTER" layoutY="19.0" prefHeight="24.0" prefWidth="55.0" text="Discord" />
+                                    <Hyperlink fx:id="tribotLink" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="19.0" prefHeight="24.0" prefWidth="55.0" text="Tribot" />
+                                    <TextField layoutX="124.0" layoutY="15.0" />
+                                    <Label layoutX="124.0" text="Script arguments:" />
+                                 </children>
+                              </Group>
+                              <StackPane layoutX="-2.0" prefHeight="259.0" prefWidth="476.0">
+                                 <children>
+                                  <AnchorPane id="tasks-pane" minHeight="0.0" minWidth="0.0" prefHeight="259.0" prefWidth="417.0">
+                                       <children>
+                                          <TitledPane alignment="CENTER" animated="false" layoutY="-1.0" prefHeight="259.0" prefWidth="476.0" text="Button2" textAlignment="CENTER">
+                                             <textFill>
+                                                <LinearGradient endX="1.0" endY="1.0">
+                                                   <stops>
+                                                      <Stop color="#611919" />
+                                                      <Stop color="WHITE" offset="1.0" />
+                                                   </stops>
+                                                </LinearGradient>
+                                             </textFill>
+                                          </TitledPane>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane id="tasks-pane" minHeight="0.0" minWidth="0.0" prefHeight="259.0" prefWidth="457.0">
+                                       <children>
+                                          <TitledPane alignment="CENTER" animated="false" prefHeight="259.0" prefWidth="476.0" text="Button1" textAlignment="CENTER">
+                                             <textFill>
+                                                <LinearGradient endX="1.0" endY="1.0">
+                                                   <stops>
+                                                      <Stop color="#611919" />
+                                                      <Stop color="WHITE" offset="1.0" />
+                                                   </stops>
+                                                </LinearGradient>
+                                             </textFill>
+                                             <content>
+                                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                                   <children>
+                                                      <CheckBox mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="23.0" prefWidth="452.0" text="CheckBox">
+                                                         <tooltip>
+                                                            <Tooltip text="Empty Tooltip" />
+                                                         </tooltip>
+                                                      </CheckBox>
+                                                      <CheckBox mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="23.0" prefWidth="452.0" text="CheckBox">
+                                                         <tooltip>
+                                                            <Tooltip text="Empty Tooltip" />
+                                                         </tooltip>
+                                                      </CheckBox>
+                                                   </children>
+                                                </VBox>
+                                             </content>
+                                          </TitledPane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </AnchorPane>
+                     </items>
+                  </SplitPane>
+                  <AnchorPane layoutX="5.0" layoutY="-1.0" prefHeight="321.0" prefWidth="137.0">
+                     <children>
+                        <Group layoutX="6.0" layoutY="14.0">
+                           <children>
+                              <Button fx:id="button1" maxWidth="122.0" minWidth="99.0" mnemonicParsing="false" onMouseClicked="#onSideButtonClicked" prefHeight="36.0" prefWidth="99.0" styleClass="side-panel-button" text="Button1" />
+                              <Button fx:id="button2" layoutY="36.0" maxWidth="122.0" minWidth="99.0" mnemonicParsing="false" onMouseClicked="#onSideButtonClicked" prefHeight="36.0" prefWidth="99.0" styleClass="side-panel-button" text="Button2" />
+                           </children>
+                        </Group>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

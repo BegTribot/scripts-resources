@@ -1,0 +1,1 @@
+{"internalName":"pack-high-detail","commit":"ec3f03e87a4735239c21a7fdc56c626fd666078e","displayName":"High Detail","compatibleVersion":"1.3.1","author":"6cythe","tags":["simple","modern","smooth","high contrast"],"repo":"https://github.com/melkypie/resource-packs/tree/pack-high-detail","hasIcon":true}
