@@ -23,7 +23,7 @@
 }
 
 .root {
-    -fx-background-image: url(../../gui/images/background.png);
+    -fx-background-image: url(../images/background.png);
     -fx-background-repeat: repeat;
     -fx-background-position: center center;
     -fx-focus-color: transparent;
@@ -113,7 +113,7 @@
 }
 
 .side-panel-button {
-    -fx-background-image: url(../../gui/images/side_button.png);
+    -fx-background-image: url(../images/side_button.png);
     -fx-background-size: cover;
     -fx-font-weight: bold;
     -fx-font-size: 1.333em;
@@ -129,7 +129,7 @@
 }
 
 .side-panel-button:selected {
-    -fx-background-image: url(../../gui/images/side_button_selected3.png);
+    -fx-background-image: url(../images/side_button_selected3.png);
     -fx-min-width: 117px;
     -fx-max-width: 117px;
     -fx-text-fill: white;
@@ -140,7 +140,7 @@
 }
 
 .decorated-button {
-    -fx-background-image: url(../../gui/images/decorated_button_small.png);
+    -fx-background-image: url(../images/decorated_button_small.png);
     -fx-background-size: cover;
     -fx-min-width: 135px;
     -fx-max-width: 42px;
@@ -150,52 +150,49 @@
 
 
 .decorated-button:hover {
-    -fx-background-image: url(../../gui/images/decorated_button_small_hover.png);
+    -fx-background-image: url(../images/decorated_button_small_hover.png);
 }
 
 .styled-button {
-	-fx-background-image: url(../../gui/images/button_big5.png);
-	-fx-min-width: 100px;
-	-fx-max-width: 100px;
-	-fx-pref-width: 100px;
-	-fx-min-height: 32px;
-	-fx-max-height: 32px;
-	-fx-pref-height: 32px;
-    //-fx-font-weight: bold;
+    -fx-background-image: url(../images/button_big5.png);
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+    -fx-pref-width: 100px;
+    -fx-min-height: 32px;
+    -fx-max-height: 32px;
+    -fx-pref-height: 32px;
 }
 
 .styled-button:hover {
-    -fx-background-image: url(../../gui/images/button_big_hovered.png);
+    -fx-background-image: url(../images/button_big_hovered.png);
 }
 
 .styled-medium-button {
-    -fx-background-image: url(../../gui/images/button_medium.png);
+    -fx-background-image: url(../images/button_medium.png);
     -fx-min-width: 80px;
     -fx-max-width: 80px;
     -fx-pref-width: 80px;
     -fx-min-height: 29.5px;
     -fx-max-height: 29.5px;
     -fx-pref-height: 29.5px;
-//-fx-font-weight: bold;
 }
 
 .styled-medium-button:hover {
-    -fx-background-image: url(../../gui/images/button_medium_hovered.png);
+    -fx-background-image: url(../images/button_medium_hovered.png);
 }
 
 .styled-small-button {
-    -fx-background-image: url(../../gui/images/button_small.png);
+    -fx-background-image: url(../images/button_small.png);
     -fx-min-width: 59px;
     -fx-max-width: 59px;
     -fx-pref-width: 59px;
     -fx-min-height: 29.5px;
     -fx-max-height: 29.5px;
     -fx-pref-height: 29.5px;
-    //-fx-font-weight: bold;
 }
 
 .styled-small-button:hover {
-    -fx-background-image: url(../../gui/images/button_small_hovered.png);
+    -fx-background-image: url(../images/button_small_hovered.png);
 }
 
 /*******************************************************************************
@@ -288,7 +285,7 @@
 }
 
 .check-box > .box {
-    -fx-background-image: url(../../gui/images/square_checkbox.png);
+    -fx-background-image: url(../images/square_checkbox.png);
     -fx-background-size: cover;
     -fx-min-width: 18px;
     -fx-max-width: 18px;
@@ -299,19 +296,23 @@
 }
 
 .check-box:selected > .box {
-    -fx-background-image: url(../../gui/images/square_bordered_checkbox_checked.png);
+    -fx-background-image: url(../images/square_bordered_checkbox_checked.png);
+}
+
+.check-box-reversed {
+    -fx-padding: 5px 0 5px 0;
 }
 
 .check-box-reversed:selected > .box {
-    -fx-background-image: url(../../gui/images/square_checkbox_checked_reversed.png);
+    -fx-background-image: url(../images/square_checkbox_checked_reversed.png);
 }
 
 .check-box:indeterminate > .box {
-    -fx-background-image: url(../../gui/images/square_checkbox_indeterminate.png);
+    -fx-background-image: url(../images/square_checkbox_indeterminate.png);
 }
 
 .check-box:disabled > .box {
-    -fx-background-image: url(../../gui/images/square_checkbox_disabled.png);
+    -fx-background-image: url(../images/square_checkbox_disabled.png);
 }
 
 .check-box:selected > .box > .mark, .check-box:indeterminate:pressed > .box > .mark {
@@ -339,8 +340,8 @@
     -fx-border-width: 2px;
     -fx-background-radius: 0, 0;
     -fx-background-color: background-color, background-color;
-    -fx-highlight-fill: rgba(255,255,255, 0.5);
-    -fx-highlight-text-fill: rgba(255,255,255, 0.5);
+    -fx-highlight-fill: rgba(255, 255, 255, 0.5);
+    -fx-highlight-text-fill: rgba(255, 255, 255, 0.5);
     -fx-pref-height: 2.833em;
     -fx-max-height: 2.833em;
     -fx-min-height: 2.833em;
@@ -358,7 +359,7 @@
 }
 
 .text-input:hover {
-	-fx-background-color: rgb(70, 60, 49);
+    -fx-background-color: rgb(70, 60, 49);
 }
 
 .arguments-input {
@@ -398,18 +399,18 @@
 }
 
 .text-area:hover .content {
-	-fx-background-color: background-color-darker;
+    -fx-background-color: background-color-darker;
 }
 
 .text-area .content {
-	-fx-background-color: background-color;
+    -fx-background-color: background-color;
     -fx-background-radius: 0;
     -fx-background-insets: 0, 1;
 }
 
 .text-area > .scroll-pane {
-	-fx-hbar-policy:never;
-	-fx-vbar-policy:never;
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
 }
 
 /*******************************************************************************
@@ -421,8 +422,8 @@
 TextField {
     -right-button-visible: true;
     -fx-border-color: transparent;
-    -fx-highlight-fill: rgba(255,255,255, 0.5);
-    -fx-highlight-text-fill: rgba(255,255,255, 0.5);
+    -fx-highlight-fill: rgba(255, 255, 255, 0.5);
+    -fx-highlight-text-fill: rgba(255, 255, 255, 0.5);
     -fx-prompt-text-fill: theme-color;
 }
 
@@ -441,7 +442,7 @@ TextField {
 }
 
 .text-field:hover {
-	-fx-background-color: background-color-darker;
+    -fx-background-color: background-color-darker;
 }
 
 /*******************************************************************************
@@ -893,27 +894,27 @@ Button {
 }
 
 #close-button {
-    -fx-background-image: url(../../gui/images/close_button.png);
+    -fx-background-image: url(../images/close_button.png);
 }
 
 #close-button:hover {
-    -fx-background-image: url(../../gui/images/close_button_hovered.png);
+    -fx-background-image: url(../images/close_button_hovered.png);
 }
 
 #min-button {
-    -fx-background-image: url(../../gui/images/min_button.png);
+    -fx-background-image: url(../images/min_button.png);
 }
 
 #min-button:hover {
-    -fx-background-image: url(../../gui/images/min_button_hovered.png);
+    -fx-background-image: url(../images/min_button_hovered.png);
 }
 
 #help-button {
-    -fx-background-image: url(../../gui/images/help_button.png);
+    -fx-background-image: url(../images/help_button.png);
 }
 
 #help-button:hover {
-    -fx-background-image: url(../../gui/images/help_button_hovered.png);
+    -fx-background-image: url(../images/help_button_hovered.png);
 }
 
 .osrs-button-icon {
@@ -930,7 +931,7 @@ Button {
 }
 
 .add-button {
-    -fx-background-image: url(../../gui/images/add_icon.png);
+    -fx-background-image: url(../images/add_icon.png);
 }
 
 /*******************************************************************************
@@ -952,11 +953,11 @@ Button {
 }
 
 .scroll-bar:vertical > .track {
-	    -fx-background-color: linear-gradient(to right, rgb(37, 32, 25) 70%, rgb(61, 52, 38) 90%);
+    -fx-background-color: linear-gradient(to right, rgb(37, 32, 25) 70%, rgb(61, 52, 38) 90%);
 }
 
 .scroll-bar:horizontal > .track {
-		    -fx-background-color: linear-gradient(to bottom, rgb(37, 32, 25) 70%, rgb(61, 52, 38) 90%);
+    -fx-background-color: linear-gradient(to bottom, rgb(37, 32, 25) 70%, rgb(61, 52, 38) 90%);
 }
 
 .scroll-bar > .track {
@@ -1077,10 +1078,10 @@ Button {
 .slider .thumb {
     -fx-background-image: url(../images/slider_new_dot_green.png);
     -fx-background-size: cover;
-   /* -fx-background-insets: 0;
-    -fx-background-radius: 0.5em; !* 6 *!
-    -fx-padding: 1em 0.333333em 1em 0.333333em;  !* 12 4 12 4 *!
-    -fx-effect: null;*/
+    /* -fx-background-insets: 0;
+     -fx-background-radius: 0.5em; !* 6 *!
+     -fx-padding: 1em 0.333333em 1em 0.333333em;  !* 12 4 12 4 *!
+     -fx-effect: null;*/
 }
 
 .slider .track {
@@ -1150,7 +1151,7 @@ Button {
     -fx-border-width: 0 0 2px 0;
 }
 
-.tab-pane:top  {
+.tab-pane:top {
     -fx-background-color: #3e3529;
     /*-fx-border-color: border-color;
     -fx-border-width: 0 0 2px 0;*/
@@ -1161,7 +1162,7 @@ Button {
     light-tab-color: #4d493c;
     -fx-background-color: transparent, tab-border-color, tab-color;
     tab-color: dark-tab-color;
-    tab-border-color : light-tab-color;
+    tab-border-color: light-tab-color;
     -fx-border-color: #4d493c;
     -fx-border-width: 0px 0 2px 0;
     -fx-background-insets: 0, 0 7 0 0, 1 8 0 1;
@@ -1178,11 +1179,11 @@ Button {
 .tab .tab-label {
     -fx-padding: 5px;
     -fx-text-base-color: theme-color;
- }
+}
 
 .tab-close-button {
     -fx-background-color: #4d493c;
-    -fx-background-size : 18;
+    -fx-background-size: 18;
 }
 
 .bordered-button {
@@ -1203,4 +1204,12 @@ Button {
 
 #add-configuration-button:hover {
     -fx-background-color: background-color-darker;
+}
+
+.hbox {
+    -fx-padding: 10px, 0, 10px, 0;
+}
+
+.vbox {
+    -fx-padding: 0, 10px, 0, 10px;
 }
