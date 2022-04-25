@@ -63,13 +63,16 @@
     -fx-text-fill: white;
 }
 
+/* TODO replace with option */
 .section-even {
-    -fx-background-color: section-even-color;
+    -fx-padding: 5 0 5 0;
+}
+/* TODO replace with option */
+.section-odd {
     -fx-padding: 5 0 5 0;
 }
 
-.section-odd {
-    -fx-background-color: section-odd-color;
+.option {
     -fx-padding: 5 0 5 0;
 }
 
@@ -300,7 +303,7 @@
 }
 
 .check-box-reversed {
-    -fx-padding: 5px 0 5px 0;
+    -fx-padding: 10px 0 10px 0;
 }
 
 .check-box-reversed:selected > .box {
@@ -450,6 +453,10 @@ TextField {
  * Combo/Choice box                                                            *
  *                                                                             *
  ******************************************************************************/
+
+.labeled-combo-box {
+    -fx-padding: 5 0 5 0;
+}
 
 .labeled-combo-box > .label .text {
     -fx-font-weight: bold;
@@ -1204,12 +1211,4 @@ Button {
 
 #add-configuration-button:hover {
     -fx-background-color: background-color-darker;
-}
-
-.hbox {
-    -fx-padding: 10px, 0, 10px, 0;
-}
-
-.vbox {
-    -fx-padding: 0, 10px, 0, 10px;
 }
