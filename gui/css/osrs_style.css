@@ -388,6 +388,7 @@
 
 .inventory-slot-quantity:hover {
     -fx-background-color: transparent;
+    -fx-border-width: 1px;
 }
 
 .inventory-add {
