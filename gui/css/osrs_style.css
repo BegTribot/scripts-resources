@@ -1,13 +1,13 @@
 @font-face {
-    src: url(../../fonts/runescape.ttf);
+    src: url(runescape.txt);
 }
 
 @font-face {
-    src: url(../../fonts/runescape-bold.ttf);
+    src: url(runescape-bold.txt);
 }
 
 @font-face {
-    src: url(../../fonts/runescape-small.ttf);
+    src: url(runescape-small.txt);
 }
 
 * {
@@ -23,7 +23,7 @@
 }
 
 .root {
-    -fx-background-image: url(../images/background.png);
+    -fx-background-image: url(background.png);
     -fx-background-repeat: repeat;
     -fx-background-position: center center;
     -fx-focus-color: transparent;
@@ -116,7 +116,7 @@
 }
 
 .side-panel-button {
-    -fx-background-image: url(../images/side_button.png);
+    -fx-background-image: url(side_button.png);
     -fx-background-size: cover;
     -fx-font-weight: bold;
     -fx-font-size: 1.333em;
@@ -132,7 +132,7 @@
 }
 
 .side-panel-button:selected {
-    -fx-background-image: url(../images/side_button_selected3.png);
+    -fx-background-image: url(side_button_selected3.png);
     -fx-min-width: 117px;
     -fx-max-width: 117px;
     -fx-text-fill: white;
@@ -143,7 +143,7 @@
 }
 
 .decorated-button {
-    -fx-background-image: url(../images/decorated_button_small.png);
+    -fx-background-image: url(decorated_button_small.png);
     -fx-background-size: cover;
     -fx-min-width: 135px;
     -fx-max-width: 42px;
@@ -153,11 +153,11 @@
 
 
 .decorated-button:hover {
-    -fx-background-image: url(../images/decorated_button_small_hover.png);
+    -fx-background-image: url(decorated_button_small_hover.png);
 }
 
 .styled-button {
-    -fx-background-image: url(../images/button_big5.png);
+    -fx-background-image: url(button_big5.png);
     -fx-min-width: 100px;
     -fx-max-width: 100px;
     -fx-pref-width: 100px;
@@ -167,11 +167,11 @@
 }
 
 .styled-button:hover {
-    -fx-background-image: url(../images/button_big_hovered.png);
+    -fx-background-image: url(button_big_hovered.png);
 }
 
 .styled-medium-button {
-    -fx-background-image: url(../images/button_medium.png);
+    -fx-background-image: url(button_medium.png);
     -fx-min-width: 80px;
     -fx-max-width: 80px;
     -fx-pref-width: 80px;
@@ -181,11 +181,24 @@
 }
 
 .styled-medium-button:hover {
-    -fx-background-image: url(../images/button_medium_hovered.png);
+    -fx-background-image: url(button_medium_hovered.png);
+}
+
+.styled-large-button {
+    -fx-background-image: url(button_large.png);
+    -fx-min-width: 136px;
+    -fx-max-width: 136px;
+    -fx-pref-width: 136px;
+    -fx-min-height: 29.5px;
+    -fx-max-height: 29.5px;
+    -fx-pref-height: 29.5px;
+}
+.styled-large-button:hover {
+    -fx-background-image: url(button_large_hovered.png);
 }
 
 .styled-small-button {
-    -fx-background-image: url(../images/button_small.png);
+    -fx-background-image: url(button_small.png);
     -fx-min-width: 59px;
     -fx-max-width: 59px;
     -fx-pref-width: 59px;
@@ -195,7 +208,7 @@
 }
 
 .styled-small-button:hover {
-    -fx-background-image: url(../images/button_small_hovered.png);
+    -fx-background-image: url(button_small_hovered.png);
 }
 
 /*******************************************************************************
@@ -288,7 +301,7 @@
 }
 
 .check-box > .box {
-    -fx-background-image: url(../images/square_checkbox.png);
+    -fx-background-image: url(square_checkbox.png);
     -fx-background-size: cover;
     -fx-min-width: 18px;
     -fx-max-width: 18px;
@@ -299,7 +312,7 @@
 }
 
 .check-box:selected > .box {
-    -fx-background-image: url(../images/square_bordered_checkbox_checked.png);
+    -fx-background-image: url(square_bordered_checkbox_checked.png);
 }
 
 .check-box-reversed {
@@ -307,15 +320,15 @@
 }
 
 .check-box-reversed:selected > .box {
-    -fx-background-image: url(../images/square_checkbox_checked_reversed.png);
+    -fx-background-image: url(square_checkbox_checked_reversed.png);
 }
 
 .check-box:indeterminate > .box {
-    -fx-background-image: url(../images/square_checkbox_indeterminate.png);
+    -fx-background-image: url(square_checkbox_indeterminate.png);
 }
 
 .check-box:disabled > .box {
-    -fx-background-image: url(../images/square_checkbox_disabled.png);
+    -fx-background-image: url(square_checkbox_disabled.png);
 }
 
 .check-box:selected > .box > .mark, .check-box:indeterminate:pressed > .box > .mark {
@@ -392,7 +405,7 @@
 }
 
 .inventory-add {
-    -fx-background-image: url("../images/add_button.png");
+    -fx-background-image: url("add_button.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: 10;
@@ -510,7 +523,7 @@ TextField {
 
 .menu-button > .arrow-button {
     -fx-pref-width: 20;
-    -fx-background-image: url(../images/arrow_down.png);
+    -fx-background-image: url(arrow_down.png);
     -fx-background-position: center;
     -fx-background-repeat: no-repeat;
     -fx-background-size: 20;
@@ -535,7 +548,7 @@ TextField {
 .choice-box > .open-button,
 .split-menu-button > .arrow-button {
     -fx-pref-width: 20;
-    -fx-background-image: url(../images/arrow_down.png);
+    -fx-background-image: url(arrow_down.png);
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: 20;
@@ -608,121 +621,121 @@ TextField {
 .equipment-combo-box-head {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_head.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_head.png");
 }
 
 .equipment-combo-box-head:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_head.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_head.png");
 }
 
 .equipment-combo-box-neck {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_neck.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_neck.png");
 }
 
 .equipment-combo-box-neck:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_neck.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_neck.png");
 }
 
 .equipment-combo-box-ammunition {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_ammunition.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_ammunition.png");
 }
 
 .equipment-combo-box-ammunition:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_ammunition.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_ammunition.png");
 }
 
 .equipment-combo-box-cape {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_cape.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_cape.png");
 }
 
 .equipment-combo-box-cape:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_cape.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_cape.png");
 }
 
 .equipment-combo-box-weapon {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_weapon.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_weapon.png");
 }
 
 .equipment-combo-box-weapon:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_weapon.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_weapon.png");
 }
 
 .equipment-combo-box-weapon {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_weapon.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_weapon.png");
 }
 
 .equipment-combo-box-weapon:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_weapon.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_weapon.png");
 }
 
 .equipment-combo-box-torso {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_torso.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_torso.png");
 }
 
 .equipment-combo-box-torso:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_torso.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_torso.png");
 }
 
 .equipment-combo-box-shield {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_shield.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_shield.png");
 }
 
 .equipment-combo-box-shield:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_shield.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_shield.png");
 }
 
 .equipment-combo-box-legs {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_legs.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_legs.png");
 }
 
 .equipment-combo-box-legs:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_legs.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_legs.png");
 }
 
 .equipment-combo-box-hands {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_hands.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_hands.png");
 }
 
 .equipment-combo-box-hands:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_hands.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_hands.png");
 }
 
 .equipment-combo-box-feet {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_feet.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_feet.png");
 }
 
 .equipment-combo-box-feet:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_feet.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_feet.png");
 }
 
 .equipment-combo-box-ring {
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
-    -fx-background-image: url("../images/slot_tile.png"), url("../images/slot_ring.png");
+    -fx-background-image: url("slot_tile.png"), url("slot_ring.png");
 }
 
 .equipment-combo-box-ring:hover {
-    -fx-background-image: url("../images/slot_selected.png"), url("../images/slot_ring.png");
+    -fx-background-image: url("slot_selected.png"), url("slot_ring.png");
 }
 
 .inventory-combo-box {
@@ -747,7 +760,7 @@ TextField {
 }
 
 .equipment-add {
-    -fx-background-image: url("../images/add_button.png");
+    -fx-background-image: url("add_button.png");
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
     -fx-background-size: 10;
@@ -800,7 +813,7 @@ TextField {
 }
 
 .combo-box-popup .list-view .scroll-bar:vertical .increment-button {
-    -fx-background-image: url(../images/arrow_down.png);
+    -fx-background-image: url(arrow_down.png);
     -fx-background-size: cover;
     -fx-pref-width: 25px;
 }
@@ -928,27 +941,27 @@ Button {
 }
 
 #close-button {
-    -fx-background-image: url(../images/close_button.png);
+    -fx-background-image: url(close_button.png);
 }
 
 #close-button:hover {
-    -fx-background-image: url(../images/close_button_hovered.png);
+    -fx-background-image: url(close_button_hovered.png);
 }
 
 #min-button {
-    -fx-background-image: url(../images/min_button.png);
+    -fx-background-image: url(min_button.png);
 }
 
 #min-button:hover {
-    -fx-background-image: url(../images/min_button_hovered.png);
+    -fx-background-image: url(min_button_hovered.png);
 }
 
 #help-button {
-    -fx-background-image: url(../images/help_button.png);
+    -fx-background-image: url(help_button.png);
 }
 
 #help-button:hover {
-    -fx-background-image: url(../images/help_button_hovered.png);
+    -fx-background-image: url(help_button_hovered.png);
 }
 
 .osrs-button-icon {
@@ -965,7 +978,7 @@ Button {
 }
 
 .add-button {
-    -fx-background-image: url(../images/add_icon.png);
+    -fx-background-image: url(add_icon.png);
 }
 
 /*******************************************************************************
@@ -1007,19 +1020,19 @@ Button {
 /* Buttons */
 
 .scroll-bar:vertical > .increment-button {
-    -fx-background-image: url(../images/arrow_down.png);
+    -fx-background-image: url(arrow_down.png);
 }
 
 .scroll-bar:vertical > .decrement-button {
-    -fx-background-image: url(../images/arrow_up.png);
+    -fx-background-image: url(arrow_up.png);
 }
 
 .scroll-bar:horizontal > .increment-button {
-    -fx-background-image: url(../images/arrow_right.png);
+    -fx-background-image: url(arrow_right.png);
 }
 
 .scroll-bar:horizontal > .decrement-button {
-    -fx-background-image: url(../images/arrow_left.png);
+    -fx-background-image: url(arrow_left.png);
 }
 
 .scroll-bar > .increment-button,
@@ -1102,7 +1115,7 @@ Button {
  ******************************************************************************/
 
 .slider {
-    -fx-background-image: url(../images/slider.png);
+    -fx-background-image: url(slider.png);
     -show-value-on-interaction: false;
     -fx-max-height: 13px;
     -fx-min-height: 13px;
@@ -1110,7 +1123,7 @@ Button {
 }
 
 .slider .thumb {
-    -fx-background-image: url(../images/slider_new_dot_green.png);
+    -fx-background-image: url(slider_new_dot_green.png);
     -fx-background-size: cover;
     /* -fx-background-insets: 0;
      -fx-background-radius: 0.5em; !* 6 *!
@@ -1180,15 +1193,13 @@ Button {
 }
 
 .tab-pane:top > .tab-header-area > .tab-header-background {
-    -fx-background-color: #3e3529;
+    -fx-background-color: transparent;
     -fx-border-color: #4d493c;
-    -fx-border-width: 0 0 2px 0;
+    -fx-border-width: 0 0 3px 0;
 }
 
 .tab-pane:top {
-    -fx-background-color: #3e3529;
-    /*-fx-border-color: border-color;
-    -fx-border-width: 0 0 2px 0;*/
+    -fx-background-color: transparent;
 }
 
 .tab {
@@ -1208,11 +1219,6 @@ Button {
 .tab:selected {
     -fx-background-color: transparent, #4d493c, #3e3529;
     -fx-border-width: 0;
-}
-
-.tab .tab-label {
-    -fx-padding: 5px;
-    -fx-text-base-color: theme-color;
 }
 
 .tab-close-button {
@@ -1238,4 +1244,18 @@ Button {
 
 #add-configuration-button:hover {
     -fx-background-color: background-color-darker;
+}
+
+.tab-pane {
+    -fx-tab-max-height: 100000;
+    -fx-background-color: red;
+}
+
+.tab {
+    -fx-pref-height: 35px;
+}
+
+.tab-label .text {
+    -fx-font-size: 14px;
+    -fx-fill: theme-color;
 }
